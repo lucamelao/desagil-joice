@@ -11,19 +11,19 @@ public class CalculadoraCFCTest {
 
 	@Test
 	public void testCobre() {
-		calculadora = new CalculadoraCFC("Cobre");
+		calculadora = new CalculadoraCFC();
 		assertEquals(8.89, calculadora.calcula(63.55, 0.128), DELTA);
 	}
 
 	@Test
 	public void testOuro() {
-		calculadora = new CalculadoraCFC("Ouro");
+		calculadora = new CalculadoraCFC();
 		assertEquals(19.36, calculadora.calcula(196.97, 0.144), DELTA);
 	}
 
 	@Test
 	public void testPrata() {
-		calculadora = new CalculadoraCFC("Prata");
+		calculadora = new CalculadoraCFC();
 		assertEquals(10.60, calculadora.calcula(107.87, 0.144), DELTA);
 	}
 

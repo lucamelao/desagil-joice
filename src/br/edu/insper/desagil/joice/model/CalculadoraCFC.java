@@ -2,8 +2,8 @@ package br.edu.insper.desagil.joice.model;
 
 public class CalculadoraCFC extends Calculadora {
 
-	public CalculadoraCFC(String nome) {
-		super(nome);
+	public CalculadoraCFC() {
+		super("CFC - Cúbica de Face Centrada");
 		// TODO Auto-generated constructor stub
 	}
 	
