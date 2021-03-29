@@ -2,11 +2,7 @@ package br.edu.insper.desagil.joice.model;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import br.edu.insper.desagil.joice.model.Calculadora;
-import br.edu.insper.desagil.joice.model.CalculadoraCFC;
 
 public class CalculadoraCFCTest {
 	
